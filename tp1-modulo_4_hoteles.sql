@@ -1,0 +1,13 @@
+-- Base de Dato Hoteles
+DROP DATABASE IF EXISTS hoteles;
+CREATE DATABASE hoteles CHARACTER SET utf8mb4;
+USE hoteles;
+
+CREATE TABLE usuario(
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+login VARCHAR(50) NOT NULL,
+password VARCHAR(50)NOT NULL,
+email VARCHAR(50)NOT NULL,
+fechaAlta DATE NOT NULL,
+ultimoAcceso TIME
+);
