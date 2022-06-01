@@ -31,3 +31,6 @@ SELECT id, nombre, apellido1, apellido2 FROM persona WHERE (tipo='alumno') GROUP
 -- Ejercicio 14
 SELECT nombre, apellido1 FROM persona;
 
+USE universidad;
+SELECT * FROM persona;
+
